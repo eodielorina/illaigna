@@ -1,0 +1,93 @@
+ *{padding: 0px;
+ 	margin: 0px;}
+ 	body{
+   font-family: 'Montserrat', sans-serif;
+}
+   .lettre{color: black;font-size: 18px;}
+   .lettre1{color: black;font-size:25px;font-style: italic;text-align: center;}
+   .lettre2{color: black;font-size: 17px;font-style: italic;text-align: center;}
+      h1{color: white}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0A7247;
+  opacity: 1; /* Firefox */
+}
+input::placeholder {  
+	text-align: center; 
+}
+input::-ms-input-placeholder {
+	text-align: center; 
+} 
+input:-ms-input-placeholder {
+	text-align: center; 
+} 
+
+#conteneur{
+	max-width:768px;
+	margin:0 auto;
+	
+}
+h2{color: white;}
+@media all and (max-width: 1024px)
+{
+    #body
+    {
+        width: auto;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    #banniere_image
+    {
+        display: none;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        flex-direction: column;
+    }
+
+    
+    
+    #photosp img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+
+    
+     p:last-child
+    {
+        text-align: center;
+    }
+  }
